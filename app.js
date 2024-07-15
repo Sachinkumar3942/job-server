@@ -15,7 +15,7 @@ dotenv.config({path:"./config/config.env"});
 app.use(
     cors({
         // origin: [process.env.FRONTEND_URL],
-        origin: 'http://localhost:3000', 
+        origin: 'https://opportunet.vercel.app', 
         methods: ["GET","POST","PUT","DELETE"],
         credentials: true,
     })
